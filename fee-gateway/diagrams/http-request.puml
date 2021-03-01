@@ -1,0 +1,19 @@
+@startuml
+
+(*) -right-> "Received a new \nresuest"
+--> "Save the payment \ninto the database"
+If "check existence" then
+--> [not exist] "Put the task in the \nprocessing queue"
+--> "Return 201"
+-->[Ending process] (*)
+else
+--> If "check payment state" then
+--> [state=Created]"Put the task in the \nprocessing queue"
+else
+--> "Return 200"
+-->[Ending process] (*)
+Endif
+
+Endif
+
+@enduml

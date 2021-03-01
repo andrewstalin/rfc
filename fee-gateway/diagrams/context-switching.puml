@@ -1,0 +1,35 @@
+@startuml
+
+[*] --> created
+created: New Payment\n
+created: ExecutionContext
+created: state: Created
+
+created --> processing
+processing: Payment processing\n
+processing: ExecutionContext
+processing: state: Processing
+processing: taskId: "string"
+
+processing --> delayed
+delayed: Processing is delayed \nuntil the moment of time\n
+delayed: ExecutionContext
+delayed: state: Delayed
+delayed: postponedTo: "timestamp"
+delayed --> processing : Changed by a new task
+
+processing --> suspend
+suspend: Processing is suspend \nuntil the cause is resolved \n
+suspend: ExecutionContext
+suspend: state: Suspend
+suspend: cause: "string"
+suspend --> processing : Changed by a new task
+
+processing --> finished
+finished: Processing completed successfully \n
+finished: ExecutionContext
+finished: state: Finished
+finished: payedAt: "timestamp"
+finished --> [*]
+
+@enduml

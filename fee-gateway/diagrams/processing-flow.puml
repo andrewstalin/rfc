@@ -1,0 +1,38 @@
+@startuml
+
+start
+
+:Try to "capture" payment;
+note right
+<b>Conditions</b>
+state=Suspend or state=Created
+state=Processing && task-id="CurrentTaskId"
+state=Delayed && postponed-to <= "CurrentTime"
+
+<b>Set ExecutionContext</b>
+state=Processing
+task-id="CurrentTaskId"
+end note
+
+if (Is success) then
+-> True;
+:Processing the payment by the agent;
+-> Switch the context by ExecutionResult;
+split
+   :Finish;
+split again
+   :Suspend;
+split again
+   :Delayed;
+   :Schedule a new processing;
+end split
+
+:Ack the task;
+else
+-> False;
+:Ack the task;
+endif
+
+stop
+
+@enduml
