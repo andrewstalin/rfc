@@ -1,6 +1,5 @@
 # Persistent layer
 ## Общие детали имплементации
-* В качестве BD используется MongoDB
 * Имя базы данных - govfee
 
 ## Payment
@@ -13,6 +12,7 @@ Name | Type | Restrictions | Description
 *sum* | **integer** | **required**: *true* | Сумма начисления (в копейках)
 *correlation-id* | **uuid** | **required**: *false* | Идентификатор внешнего контекста 
 *version* | **integer** | **required**: *true* | Версия документа
+*attempt* | **integer** | **required**: *true* | Номер попытки отправки платежа
 *context* | **object** | **required**: *true* <br> **format**: *[ExecutionContext](#ExecutionContextBD)* | Контекст обработки платежа
 *created-at* | **datetime** | **required**: *true* | Дата создания платежа
 *receipt* | **object** | **required**: *false* <br> **format**: *[PaymentReceipt](#PaymentReceiptBD)* | Квитнция об оплате
@@ -22,7 +22,7 @@ Name | Type | Restrictions | Description
 ---|---|---|---
 *state* | **enum** | **required**: *true* | Состояние контекста обработки платежа
 *task-id* | **uuid** | **required**: *false* | Идентификатор задачи, в рамках которой обрабатывается платеж
-*attempt* | **integer** | **required**: *true* | Номер попытки отправки платежа
+*reason* | **string** | **required**: *false* | Описание причины перехода платежа в текущее состояние
 *payed-at* | **datetime** | **required**: *false* | Метка времени, когда платеж был завершен
 *postponed-to* | **datetime** | **required**: *false* | До какого момента отложен платеж
 
@@ -33,12 +33,15 @@ Name | Type | Restrictions | Description
 
 ## Newsfeed
 Лента новостей. Название коллекции - payments.newsfeed. Ключ - ObjectId
+##### Индексы:
+* task-id
 
 Name | Type | Restrictions | Description
 ---|---|---|---
 *payment-id* | **uuid** | **required**: *true* <br> **format**: *UUIDv1* | Идентификатор платежа
 *correlation-id* | **uuid** | **required**: *false* | Идентификатор контекста, в рамках которого проводится платеж
-*state* | **enum** | **required**: *true* | Состояние контекста обработки платежа
+*task-id* | **uuid** | **required**: *true* | Идентификатор задачи, в рамках которой обрабатывается платеж
+*context* | **object** | **required**: *true* <br> **format**: *[ExecutionContext](#ExecutionContextBD)* | Контекст обработки платежа
 
 
 ## Teko log

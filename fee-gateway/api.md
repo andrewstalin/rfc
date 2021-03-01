@@ -100,7 +100,7 @@ Name | Type | Restrictions | Description
 ---|---|---|---
 *paymentId* | **uuid** | **required**: *true* <br> **format**: *UUIDv1* | Идентификатор платежа
 *correlationId* | **uuid** | **required**: *false* | Идентификатор внешнего контекста
-*state* | **enum** | **required**: *true* | Состояние контекста обработки платежа
+*context* | **object** | **required**: *true* <br> **format**: *[ExecutionContext](#ExecutionContextAPI)* |
 
 #### TekoLog
 Name | Type | Restrictions | Description
@@ -153,7 +153,7 @@ Trace-Id: value
 ```
 #### Response
 ```http request
-HTTP/1.1 204 OK
+HTTP/1.1 201 OK
 ETag: value
 Trace-Id: value
 
