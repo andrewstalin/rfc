@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<title>Binary size</title>
+<link rel="stylesheet" href="webtreemap.css">
+<link rel="stylesheet" href="bloat.css">
+</head>
+
+<body>
+<legend>
+    <h2>Legend:</h2>
+    <div class="webtreemap-node webtreemap-type-sec webtreemap-aggregate">
+        <div class="webtreemap-node webtreemap-type-sec">
+            Section
+        </div>
+    </div>
+    <div class="webtreemap-node webtreemap-type-dir webtreemap-aggregate">
+        <div class="webtreemap-node webtreemap-type-dir">
+            Dir
+        </div>
+    </div>
+    <div class="webtreemap-node webtreemap-type-file webtreemap-aggregate">
+        <div class="webtreemap-node webtreemap-type-file">
+            File
+        </div>
+    </div>
+    <div class="webtreemap-node webtreemap-type-ns webtreemap-aggregate">
+        <div class="webtreemap-node webtreemap-type-ns">
+            Namespace
+        </div>
+    </div>
+    <div class="webtreemap-node webtreemap-type-cls webtreemap-aggregate">
+        <div class="webtreemap-node webtreemap-type-cls">
+            Class
+        </div>
+    </div>
+    <div class="webtreemap-node webtreemap-type-fn webtreemap-aggregate">
+        <div class="webtreemap-node webtreemap-type-fn">
+            Code
+        </div>
+    </div>
+    <div class="webtreemap-node webtreemap-type-var webtreemap-aggregate">
+        <div class="webtreemap-node webtreemap-type-var">
+            Data
+        </div>
+    </div>
+</legend>
+
+<h1>bloat2</h1>
+<p>Click on a box to zoom in.  Click on the outermost box to zoom out.</p>
+
+<div id='map'></div>
+
+<script type="text/javascript" src='webtreemap.js'></script>
+<script type="text/javascript" src="bloat.js"></script>
+<script type="text/javascript">
+    var map = document.getElementById('map');
+    appendTreemap(map, bloat.tree);
+</script>
+
+</body>
