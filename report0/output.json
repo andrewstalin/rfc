@@ -1,0 +1,765 @@
+{
+    "total_compilation_time": 14725.532839999996,
+    "cpp_compilation_times": [
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/9a812de57c1375eab3a13e527f.auxcpp",
+            "time_s": 1.903276
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/backup_restore_traits.h_serialized.cpp",
+            "time_s": 2.994747
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/datashard_s3_upload.h_serialized.cpp",
+            "time_s": 3.035632
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/range_ops.cpp",
+            "time_s": 5.224814
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/probes.cpp",
+            "time_s": 7.026131
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/backup_restore_traits.cpp",
+            "time_s": 7.087957
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/change_exchange.h_serialized.cpp",
+            "time_s": 9.270284
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_exchange.cpp",
+            "time_s": 9.696185
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_failpoints.cpp",
+            "time_s": 10.340881
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/execution_unit_kind.h_serialized.cpp",
+            "time_s": 10.584025
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/key_conflicts.cpp",
+            "time_s": 17.103692
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/erase_rows_condition.cpp",
+            "time_s": 20.012504
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/extstorage_usage_config.cpp",
+            "time_s": 21.659649
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_record_body_serializer.cpp",
+            "time_s": 23.453475
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/export_s3_buffer_zstd.cpp",
+            "time_s": 23.725519
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_record.cpp",
+            "time_s": 24.073755
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/export_iface.cpp",
+            "time_s": 24.201202
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/export_s3_buffer_raw.cpp",
+            "time_s": 31.42923
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_user_table.cpp",
+            "time_s": 32.030776
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_record_cdc_serializer.cpp",
+            "time_s": 36.314273
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_kqp_upsert_rows.cpp",
+            "time_s": 38.640365
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/upload_stats.cpp",
+            "time_s": 39.141229
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_kqp_effects.cpp",
+            "time_s": 39.253428
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_kqp_delete_rows.cpp",
+            "time_s": 40.786885
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_kqp_read_table.cpp",
+            "time_s": 41.30194
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_kqp_lookup_table.cpp",
+            "time_s": 41.596817
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/datashard.h_serialized.cpp",
+            "time_s": 50.515059
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/export_scan.cpp",
+            "time_s": 55.626698
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/export_common.cpp",
+            "time_s": 60.085049
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_scheme_tx_unit.cpp",
+            "time_s": 65.368187
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/wait_for_stream_clearance_unit.cpp",
+            "time_s": 66.905647
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/execution_unit.h_serialized.cpp",
+            "time_s": 68.68299
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__cleanup_tx.cpp",
+            "time_s": 69.879676
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/operation.h_serialized.cpp",
+            "time_s": 70.533704
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_and_send_write_out_rs_unit.cpp",
+            "time_s": 72.496585
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_snapshot_tx_unit.cpp",
+            "time_s": 72.557586
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/check_read_unit.cpp",
+            "time_s": 74.515543
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_sender_cdc_stream.cpp",
+            "time_s": 74.556053
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_direct_upload.cpp",
+            "time_s": 74.753472
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/remove_locks.cpp",
+            "time_s": 76.230358
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/restore_unit.cpp",
+            "time_s": 76.232403
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_direct_erase.cpp",
+            "time_s": 76.473803
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_exchange_split.cpp",
+            "time_s": 76.69716
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/receive_snapshot_cleanup_unit.cpp",
+            "time_s": 76.97284
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/completed_operations_unit.cpp",
+            "time_s": 78.108447
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__column_stats.cpp",
+            "time_s": 78.266896
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_distributed_erase_tx_unit.cpp",
+            "time_s": 78.480378
+        },
+        {
+            "path": "src/.ya/build/build_root/ydb/core/tx/datashard/datashard_active_transaction.h_serialized.cpp",
+            "time_s": 78.495301
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_and_send_out_rs_unit.cpp",
+            "time_s": 78.59485
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/wait_for_plan_unit.cpp",
+            "time_s": 78.899179
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/read_table_scan_unit.cpp",
+            "time_s": 78.956994
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/finish_propose_write_unit.cpp",
+            "time_s": 79.058027
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_data_tx_unit.cpp",
+            "time_s": 79.633909
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/read_table_scan.cpp",
+            "time_s": 81.049119
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_commit_writes_tx_unit.cpp",
+            "time_s": 81.160204
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/load_tx_details_unit.cpp",
+            "time_s": 81.248521
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/load_write_details_unit.cpp",
+            "time_s": 81.456109
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_distributed_erase.cpp",
+            "time_s": 81.630537
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/store_write_unit.cpp",
+            "time_s": 81.789983
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/plan_queue_unit.cpp",
+            "time_s": 81.937122
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_change_sending.cpp",
+            "time_s": 82.306912
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/receive_snapshot_unit.cpp",
+            "time_s": 82.466914
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_active_transaction.cpp",
+            "time_s": 82.517955
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_common_upload.cpp",
+            "time_s": 83.054715
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/load_and_wait_in_rs_unit.cpp",
+            "time_s": 83.43711
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/read_op_unit.cpp",
+            "time_s": 83.440135
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__cleanup_in_rs.cpp",
+            "time_s": 83.740803
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__s3_upload_txs.cpp",
+            "time_s": 83.833153
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/prepare_data_tx_in_rs_unit.cpp",
+            "time_s": 83.900965
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/check_scheme_tx_unit.cpp",
+            "time_s": 83.906013
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/check_data_tx_unit.cpp",
+            "time_s": 83.965847
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/move_table_unit.cpp",
+            "time_s": 84.095636
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/build_and_wait_dependencies_unit.cpp",
+            "time_s": 84.231878
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__mon_reset_schema_version.cpp",
+            "time_s": 84.304688
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/create_volatile_snapshot_unit.cpp",
+            "time_s": 84.390675
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/check_commit_writes_tx_unit.cpp",
+            "time_s": 84.451009
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__cancel_tx_proposal.cpp",
+            "time_s": 84.508403
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/protect_scheme_echoes_unit.cpp",
+            "time_s": 84.51735
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/prepare_distributed_erase_tx_in_rs_unit.cpp",
+            "time_s": 84.593351
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/make_scan_snapshot_unit.cpp",
+            "time_s": 84.595862
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/finalize_plan_tx_unit.cpp",
+            "time_s": 84.76563
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/drop_index_notice_unit.cpp",
+            "time_s": 84.814133
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_subdomain_path_id.cpp",
+            "time_s": 84.978321
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/complete_data_tx_unit.cpp",
+            "time_s": 85.214195
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_collector.cpp",
+            "time_s": 85.223653
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__compact_borrowed.cpp",
+            "time_s": 85.263483
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__write.cpp",
+            "time_s": 85.266906
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/prepare_kqp_data_tx_in_rs_unit.cpp",
+            "time_s": 85.464615
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/drop_persistent_snapshot_unit.cpp",
+            "time_s": 85.568361
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/alter_table_unit.cpp",
+            "time_s": 85.719048
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_dep_tracker.cpp",
+            "time_s": 85.78778
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/make_snapshot_unit.cpp",
+            "time_s": 85.884285
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/key_validator.cpp",
+            "time_s": 85.921927
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/drop_volatile_snapshot_unit.cpp",
+            "time_s": 85.986835
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/check_distributed_erase_tx_unit.cpp",
+            "time_s": 86.000473
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/move_index_unit.cpp",
+            "time_s": 86.013137
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__s3_download_txs.cpp",
+            "time_s": 86.035177
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_loans.cpp",
+            "time_s": 86.103776
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_s3_downloads.cpp",
+            "time_s": 86.189806
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/remove_lock_change_records.cpp",
+            "time_s": 86.205162
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__migrate_schemeshard.cpp",
+            "time_s": 86.215884
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_direct_transaction.cpp",
+            "time_s": 86.38253
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__get_state_tx.cpp",
+            "time_s": 86.459196
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__monitoring.cpp",
+            "time_s": 86.506203
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/prepare_scheme_tx_in_rs_unit.cpp",
+            "time_s": 86.708146
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/create_cdc_stream_unit.cpp",
+            "time_s": 86.773544
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__progress_resend_rs.cpp",
+            "time_s": 86.951287
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_switch_mvcc_state.cpp",
+            "time_s": 87.045462
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__stats.cpp",
+            "time_s": 87.069293
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/execution_unit.cpp",
+            "time_s": 87.131188
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/drop_table_unit.cpp",
+            "time_s": 87.146105
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__schema_changed.cpp",
+            "time_s": 87.155749
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/operation.cpp",
+            "time_s": 87.396814
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/alter_cdc_stream_unit.cpp",
+            "time_s": 87.450215
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/build_distributed_erase_tx_out_rs_unit.cpp",
+            "time_s": 87.467704
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__store_scan_state.cpp",
+            "time_s": 87.732619
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_schema_snapshots.cpp",
+            "time_s": 87.743135
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_collector_async_index.cpp",
+            "time_s": 87.854671
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/drop_cdc_stream_unit.cpp",
+            "time_s": 87.861054
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_repl_apply.cpp",
+            "time_s": 87.946888
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_collector_cdc_stream.cpp",
+            "time_s": 88.065314
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__compaction.cpp",
+            "time_s": 88.083742
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/cdc_stream_scan.cpp",
+            "time_s": 88.13297
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_repl_offsets_client.cpp",
+            "time_s": 88.468529
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_collector_base.cpp",
+            "time_s": 88.485563
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__cleanup_borrowed.cpp",
+            "time_s": 88.539251
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/initiate_build_index_unit.cpp",
+            "time_s": 88.630697
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/complete_write_unit.cpp",
+            "time_s": 88.681941
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__op_rows.cpp",
+            "time_s": 88.769087
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/build_scheme_tx_out_rs_unit.cpp",
+            "time_s": 89.14115
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__propose_tx_base.cpp",
+            "time_s": 89.146119
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_change_sender_activation.cpp",
+            "time_s": 89.3314
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_user_db.cpp",
+            "time_s": 89.338039
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__snapshot_txs.cpp",
+            "time_s": 89.669201
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/execute_kqp_scan_tx_unit.cpp",
+            "time_s": 89.734084
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/finalize_build_index_unit.cpp",
+            "time_s": 89.773832
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__plan_step.cpp",
+            "time_s": 89.829239
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_change_receiving.cpp",
+            "time_s": 89.851165
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/cdc_stream_heartbeat.cpp",
+            "time_s": 90.036331
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_split_dst.cpp",
+            "time_s": 90.12291
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_kqp.cpp",
+            "time_s": 90.315171
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/execute_write_unit.cpp",
+            "time_s": 90.446282
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/volatile_tx.cpp",
+            "time_s": 90.467246
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__conditional_erase_rows.cpp",
+            "time_s": 90.515298
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/finish_propose_unit.cpp",
+            "time_s": 90.526039
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/backup_restore_common.cpp",
+            "time_s": 90.73386
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/conflicts_cache.cpp",
+            "time_s": 90.91
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__progress_tx.cpp",
+            "time_s": 90.949609
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/prepare_write_tx_in_rs_unit.cpp",
+            "time_s": 90.984817
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/follower_edge.cpp",
+            "time_s": 91.047134
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__engine_host.cpp",
+            "time_s": 91.094097
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/check_snapshot_tx_unit.cpp",
+            "time_s": 91.164839
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/build_data_tx_out_rs_unit.cpp",
+            "time_s": 91.556393
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_repl_offsets_server.cpp",
+            "time_s": 91.732151
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_sender.cpp",
+            "time_s": 91.75295
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/check_write_unit.cpp",
+            "time_s": 91.83291
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_trans_queue.cpp",
+            "time_s": 92.10898
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/create_table_unit.cpp",
+            "time_s": 92.410799
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_snapshots.cpp",
+            "time_s": 92.425585
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/execute_commit_writes_tx_unit.cpp",
+            "time_s": 92.544743
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_locks_db.cpp",
+            "time_s": 92.574201
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_s3_upload_rows.cpp",
+            "time_s": 92.6728
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__store_table_path.cpp",
+            "time_s": 92.675056
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/build_index.cpp",
+            "time_s": 92.756162
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__readset.cpp",
+            "time_s": 92.766241
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/change_sender_async_index.cpp",
+            "time_s": 92.893908
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_repl_offsets.cpp",
+            "time_s": 92.972375
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/backup_unit.cpp",
+            "time_s": 93.009726
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_overload.cpp",
+            "time_s": 93.024664
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/execute_distributed_erase_tx_unit.cpp",
+            "time_s": 93.340851
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__object_storage_listing.cpp",
+            "time_s": 93.511107
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/direct_tx_unit.cpp",
+            "time_s": 93.750131
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_s3_uploads.cpp",
+            "time_s": 93.992143
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_write_operation.cpp",
+            "time_s": 94.07803
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_outreadset.cpp",
+            "time_s": 94.234337
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/build_kqp_data_tx_out_rs_unit.cpp",
+            "time_s": 94.631438
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/build_write_out_rs_unit.cpp",
+            "time_s": 95.088708
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__read_columns.cpp",
+            "time_s": 95.266475
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/create_persistent_snapshot_unit.cpp",
+            "time_s": 95.324305
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/import_s3.cpp",
+            "time_s": 95.654434
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/execute_data_tx_unit.cpp",
+            "time_s": 95.833227
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_split_src.cpp",
+            "time_s": 96.386497
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_pipeline.cpp",
+            "time_s": 96.812427
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/execute_kqp_data_tx_unit.cpp",
+            "time_s": 98.132123
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__kqp_scan.cpp",
+            "time_s": 99.083493
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__init.cpp",
+            "time_s": 99.149989
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard__read_iterator.cpp",
+            "time_s": 100.701727
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard.cpp",
+            "time_s": 101.275743
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/export_s3_uploader.cpp",
+            "time_s": 103.423319
+        },
+        {
+            "path": "src/ydb/core/tx/datashard/datashard_kqp_compute.cpp",
+            "time_s": 121.766912
+        }
+    ]
+}
